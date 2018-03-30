@@ -1,0 +1,5 @@
+/*.pkl
+/__pycache__
+/*.csv
+/gold.txt
+/diff.txt

@@ -1,0 +1,46 @@
+https://github.com/headius/redblack/blob/master/red_black_tree.py'
+
+
+1.建好幾個dict
+	- 字數 
+	- 其他切分方式
+2.用rb tree取代
+3.multi processing 
+	- 斷詞
+	- bigram和trigram
+	- 不同文章的斷詞和index
+4.REPLACE 數字
+	
+	
+Steps:
+
+斷詞
+	得到vocab
+	
+	
+Index 前處理
+	(optional)replace 數字用空白
+
+	
+	
+建立index
+	Index形式
+	key:set of document ID
+
+
+	中文 
+		trigram,bigram
+	英文
+		regular expression --> 找英文字連續的
+		
+		
+
+Query --> 利用set difference,union,join
+
+
+Output sort
+
+-->斷詞斷不出來蔡英文
+-->全部用N-gram...
+		
+		
