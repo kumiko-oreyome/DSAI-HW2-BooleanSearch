@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
     print('output result')
     #output results
-    res = []
+    
     with open(args.output,'w') as f:
         for i,query in enumerate(querys):
             res = parse_query(query,index)
